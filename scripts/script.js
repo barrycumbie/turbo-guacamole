@@ -16,9 +16,18 @@ $(document).ready(function () {
     console.log("you clicked the button");
     //console.log("from ln 12", generateCoolNameFacts(userName));
 
-    // $("#coolNameFactsOutput").html(nameLength(userName));
+    $("#coolNameFactsOutput").html(nameLength(userName));
 
-    $("#coolNameFactsOutput").html(getSpiritAnimal(userName));
+    // $("#coolNameFactsOutput").html(getSpiritAnimal(userName));
+
+    // $("#coolNameFactsOutput").html(
+    //   '<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.Y-YVLipceJt1DMU3Bs8uIAHaFj%26pid%3DApi&f=1">'
+    // );
+
+    // $("#coolNameImg").attr(
+    //   "src",
+    //   "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.Y-YVLipceJt1DMU3Bs8uIAHaFj%26pid%3DApi&f=1"
+    // );
   });
 });
 
